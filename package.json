@@ -1,0 +1,32 @@
+{
+    "name": "eagle-sdk",
+    "version": "0.0.1",
+    "description": "eagle-sdk",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "clean": "rm -rf ./build",
+        "test": "jest ./test",
+        "lint": "prettier --check . && eslint . --ext .ts && cspell '**/*' ",
+        "prettier": "prettier --write ."
+    },
+    "keywords": [
+        "eagle"
+    ],
+    "author": "qiuxiaori",
+    "license": "MIT",
+    "homepage": "https://github.com/qiuxiaori/EagleSDK#readme",
+    "dependencies": {
+        "axios": "^1.6.7",
+        "crypto-js": "^4.2.0",
+        "eslint": "^8.56.0",
+        "node-fetch": "^3.3.2",
+        "prettier": "^3.2.4",
+        "qs": "^6.11.2",
+        "ts-jest": "^29.1.2",
+        "typescript": "^5.3.3"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.11"
+    }
+}
