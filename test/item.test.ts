@@ -1,4 +1,5 @@
 import EagleSDK from '..'
+const fs = require('fs')
 
 describe('Item', () => {
     const sdk = new EagleSDK({
@@ -19,8 +20,14 @@ describe('Item', () => {
 
     describe('addFromURLs', () => {
         it('success', async () => {
+            const file = await fs.readFileSync('./videos.json')
+            let videos = JSON.parse(file)
+            const items = videos.map((v: any) => {
+                return { url: v.pic, name: v.bvid }
+            })
+
             let res = await sdk.item.addFromURLs({
-                items: [{ url: 'http://i0.hdslb.com/bfs/archive/6ffcab96d2d8429cc67667ac2eabab5f0a14ced0.jpg', name: 'BV1xe4y1Y7Jv' }],
+                items: items,
             })
             expect(res.status).toEqual('success')
         })

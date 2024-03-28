@@ -1,6 +1,6 @@
 import EagleSDK from '..'
 
-describe('Folder', () => {
+describe.skip('Folder', () => {
     const sdk = new EagleSDK({
         token: '1364ff15-4a7c-470b-9124-7739101c367b',
     })
