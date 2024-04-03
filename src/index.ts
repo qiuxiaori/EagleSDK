@@ -22,7 +22,7 @@ export type ResponseBody = {
     data?: any
 }
 
-export default class EagleSDK implements EagleSDKImpl {
+class EagleSDK implements EagleSDKImpl {
     public opts: SDKOptions
     public readonly application: Application
     public readonly folder: Folder
@@ -69,3 +69,5 @@ export default class EagleSDK implements EagleSDKImpl {
 export interface EagleSDKImpl {
     request(payload: RequestParameters): Promise<ResponseBody>
 }
+
+export { EagleSDK }

@@ -21,7 +21,7 @@ export type ResponseBody = {
     status: string;
     data?: any;
 };
-export default class EagleSDK implements EagleSDKImpl {
+declare class EagleSDK implements EagleSDKImpl {
     opts: SDKOptions;
     readonly application: Application;
     readonly folder: Folder;
@@ -38,5 +38,5 @@ export default class EagleSDK implements EagleSDKImpl {
 export interface EagleSDKImpl {
     request(payload: RequestParameters): Promise<ResponseBody>;
 }
-export {};
+export { EagleSDK };
 //# sourceMappingURL=index.d.ts.map

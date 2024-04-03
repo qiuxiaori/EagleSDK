@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.EagleSDK = void 0;
 const axios_1 = require("axios");
 const application_1 = require("./api-endpoint/application");
 const folder_1 = require("./api-endpoint/folder");
@@ -43,5 +44,5 @@ class EagleSDK {
         return res.data;
     }
 }
-exports.default = EagleSDK;
+exports.EagleSDK = EagleSDK;
 //# sourceMappingURL=index.js.map

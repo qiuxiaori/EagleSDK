@@ -3,6 +3,7 @@
     "version": "0.0.2",
     "description": "eagle-sdk",
     "main": "./build/src",
+    "types": "./build/src/index.d.ts",
     "scripts": {
         "build": "tsc",
         "clean": "rm -rf ./build",

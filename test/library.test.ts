@@ -1,4 +1,4 @@
-import EagleSDK from '../src'
+import { EagleSDK } from '../src'
 
 describe('Library', () => {
     const sdk = new EagleSDK({
