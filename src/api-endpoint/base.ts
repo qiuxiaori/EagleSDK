@@ -1,5 +1,5 @@
-import { EagleSDKImpl } from '../..'
-import { SDKOptions } from '../../index'
+import { EagleSDKImpl } from '..'
+import { SDKOptions } from '../index'
 
 export class Base {
     constructor(

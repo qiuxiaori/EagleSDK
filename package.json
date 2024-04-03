@@ -2,7 +2,7 @@
     "name": "eagle-sdk",
     "version": "0.0.1",
     "description": "eagle-sdk",
-    "main": "index.js",
+    "main": "./build/src",
     "scripts": {
         "build": "tsc",
         "clean": "rm -rf ./build",

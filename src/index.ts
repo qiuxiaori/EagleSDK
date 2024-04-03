@@ -1,8 +1,8 @@
 import axios from 'axios'
-import { Application } from './src/api-endpoint/application'
-import { Folder } from './src/api-endpoint/folder'
-import { Item } from './src/api-endpoint/item'
-import { Library } from './src/api-endpoint/library'
+import { Application } from './api-endpoint/application'
+import { Folder } from './api-endpoint/folder'
+import { Item } from './api-endpoint/item'
+import { Library } from './api-endpoint/library'
 
 type Method = 'get' | 'post' | 'patch' | 'delete'
 type Token = string

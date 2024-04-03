@@ -1,4 +1,4 @@
-import { ResponseBody } from '../../index';
+import { ResponseBody } from '../index';
 import { Base } from './base';
 export declare class Application extends Base {
     /**

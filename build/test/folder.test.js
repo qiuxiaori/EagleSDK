@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const __1 = require("..");
+const src_1 = require("../src");
 describe('Folder', () => {
-    const sdk = new __1.default({
+    const sdk = new src_1.default({
         token: '1364ff15-4a7c-470b-9124-7739101c367b',
     });
     beforeAll(() => { });

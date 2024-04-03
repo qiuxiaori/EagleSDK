@@ -1,4 +1,4 @@
-import { ResponseBody } from '../../index';
+import { ResponseBody } from '../index';
 import { Base } from './base';
 import { FolderId } from './folder';
 type Timestamp = number;
