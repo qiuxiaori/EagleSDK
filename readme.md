@@ -1,7 +1,7 @@
 <div align="center">
 	<h1>Eagle SDK for JavaScript</h1>
 	<p>
-		<b>A simple and easy to use client for the software <a href="https://eagle.cool/"> Eagle API</a></b>
+		<b>A simple and easy to use client for the software <a href="https://eagle.cool/"> Eagle</a></b>
 	</p>
 	<br>
 </div>
